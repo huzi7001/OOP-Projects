@@ -1,5 +1,5 @@
 #creat account class with two attributes , balance and account number
-#creat method for debit, credit and printing the balance
+#creat a method for debit, credit and printing the balance
 
 # def def__init__(balance, account_num):
 #     raise NotImplementedError
