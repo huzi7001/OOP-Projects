@@ -2,7 +2,7 @@
 #creat a method for debit, credit and printing the balance
 
 # def def__init__(balance, account_num):
-#     raise NotImplementedErro
+#     raise NotImplementedError
 
 class Account:
     def __init__(self, balance, account_num):
