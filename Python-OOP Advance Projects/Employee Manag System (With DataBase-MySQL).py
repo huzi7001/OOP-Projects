@@ -146,7 +146,7 @@ class DatabaseManager:
         return self.fetch_all(query, (search_pattern, search_pattern))
 
 
-# ---------------- Salary Class (Composition) ----------------
+# ---------------- Salary Class (Composition) ---------------- 
 class Salary:
     def __init__(self, base_salary):
         self.__base_salary = base_salary
