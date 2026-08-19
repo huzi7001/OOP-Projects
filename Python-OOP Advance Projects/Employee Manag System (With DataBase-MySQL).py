@@ -87,7 +87,7 @@ class DatabaseManager:
             print(f"Error fetching data: {e}")
             return None
     
-    # --- Employee CRUD Operations ---
+    # --- Employee CRUD Operations --- 
     
     def add_employee(self, emp_id, name, base_salary, emp_type, bonus):
         """Insert a new employee into the database."""
