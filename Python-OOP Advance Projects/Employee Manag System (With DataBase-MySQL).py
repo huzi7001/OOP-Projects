@@ -87,7 +87,7 @@ class DatabaseManager:
             print(f"Error fetching data: {e}")
             return None
     
-    # --- Employee CRUD Operations --- 
+    # --- Employee CRUD Operations ---
     
     def add_employee(self, emp_id, name, base_salary, emp_type, bonus):
         """Insert a new employee into the database."""
@@ -146,7 +146,7 @@ class DatabaseManager:
         return self.fetch_all(query, (search_pattern, search_pattern))
 
 
-# ---------------- Salary Class (Composition) ---------------- 
+# ---------------- Salary Class (Composition) ----------------
 class Salary:
     def __init__(self, base_salary):
         self.__base_salary = base_salary
@@ -792,8 +792,6 @@ class EmployeeManagementSystem:
         if self.db_connected:
             self.db.disconnect()
         self.root.destroy()
-
-
 # ---------------- Main Program ----------------
 if __name__ == "__main__":
     root = tk.Tk()
