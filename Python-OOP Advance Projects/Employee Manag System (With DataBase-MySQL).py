@@ -192,7 +192,7 @@ class Employee(ABC):
         )
 
 
-# ---------------- Employee Types ----------------
+# ---------------- Employee Types ---------------- 
 class Manager(Employee):
     def __init__(self, name, emp_id, base_salary):
         salary_obj = Salary(base_salary)
