@@ -161,7 +161,7 @@ class Salary:
             print("Invalid Salary!")
 
 
-# ---------------- Abstract Employee Class ----------------
+# ---------------- Abstract Employee Class ---------------- 
 class Employee(ABC):
     def __init__(self, name, emp_id, salary: Salary):
         self.name = name
