@@ -84,7 +84,7 @@ class DatabaseManager:
             cursor.close()
             return result
         except Error as e:
-            print(f"Error fetching data: {e}") 
+            print(f"Error fetching data: {e}")
             return None
     
     # --- Employee CRUD Operations ---
