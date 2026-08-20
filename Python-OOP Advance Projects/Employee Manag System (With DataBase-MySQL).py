@@ -329,7 +329,7 @@ class EmployeeManagementSystem:
         )
         title.pack(side=tk.LEFT, padx=10)
         
-        # Database connection indicator
+        # Database connection indicator 
         db_status = "🟢 Connected" if self.db_connected else "🔴 Disconnected"
         db_label = tk.Label(
             title_container,
