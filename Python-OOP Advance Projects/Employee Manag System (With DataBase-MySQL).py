@@ -6,7 +6,7 @@ import mysql.connector
 from mysql.connector import Error
 
 
-# ---------------- Database Manager Class ----------------   
+# ---------------- Database Manager Class ----------------
 class DatabaseManager:
     """Handles all database operations."""
     
