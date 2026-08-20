@@ -247,7 +247,7 @@ class Designer(Employee):
         return self.salary.get_salary() * 0.11
 
 
-# ---------------- Employee Management System (Enhanced GUI with MySQL) ----------------
+# ---------------- Employee Management System (Enhanced GUI with MySQL) ---------------- 
 class EmployeeManagementSystem:
     def __init__(self, root):
         self.root = root
